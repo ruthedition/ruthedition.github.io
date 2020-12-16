@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Home',
+  siteTitle: 'Hi! I\'m Ruth',
   siteDescription: `Personal Site`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Ruth Kebede',
@@ -364,6 +364,11 @@ module.exports = {
     },
     {
       image: "/images/photography/long_road.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/trees_sun.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
