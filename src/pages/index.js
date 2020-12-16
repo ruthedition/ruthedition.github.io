@@ -40,7 +40,7 @@ const Home = ({ className, location }) => {
 
       <Hero
         heroImg={siteConfig.siteCover}
-        title={title}
+        title="Hi! I'm Ruth!"
       />
 
       <Wrapper className={className} >
