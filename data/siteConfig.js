@@ -53,8 +53,8 @@ module.exports = {
       duration: '2 yr & 8 mos',
       occupation: "Founder",
       description: "I founded this company to create a space for new software engineers and bootcamp grads to gain experience."
-  
-    },  {
+
+    }, {
       company: "Verticomm Technologies",
       begin: {
         month: 'apr',
@@ -63,7 +63,7 @@ module.exports = {
       duration: '5 mos',
       occupation: "Account Manager",
       description: "I was a communication liason between clients and engineers."
-  
+
     }, {
       company: "Joining Vision and Action",
       begin: {
@@ -82,8 +82,8 @@ module.exports = {
       duration: '1 yrs & 9 mos',
       occupation: "Sr. Phone Support Consultant",
       description: "."
-  
-    },{
+
+    }, {
       company: "University of Denver - UTS",
       begin: {
         month: 'july',
@@ -92,8 +92,8 @@ module.exports = {
       duration: '2 yrs & 10 mos',
       occupation: "Help Desk Consultant",
       description: "."
-  
-    },{
+
+    }, {
       company: "University of Denver - The Girls in Transition Project",
       begin: {
         month: 'sep',
@@ -102,10 +102,20 @@ module.exports = {
       duration: '1 yrs & 9 mos',
       occupation: "Research Assistant",
       description: "Completed Data entry, analysis, and interviews for girls who have been referred to the juvenille justice system."
-  
+
     }
   ],
   portifolio: [
+    {
+      image: "/images/one_place.png",
+      description: "Personal Site",
+      url: "https://github.com/ruthedition/sinatra_project"
+    },
+    {
+      image: "/images/one_place.png",
+      description: "Consious Soul",
+      url: "https://github.com/ruthedition/sinatra_project"
+    },
     {
       image: "/images/one_place.png",
       description: "One Place Prototype",
@@ -126,6 +136,7 @@ module.exports = {
       description: "Wine Collection",
       url: "https://github.com/ruthedition/sinatra_project"
     },
+    
     /* more portifolio items here */
   ],
   blog: [
@@ -179,27 +190,17 @@ module.exports = {
       // description: "One Place",
     },
     {
-      image: "/images/photography/building_snow.jpg",
+      image: "/images/backgound/background.JPG",
       // description: "Budget Buddy",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/car_sunset.jpg",
+      image: "/images/background/lights.jpg",
       // description: "Restaurant Randomizer",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/white_car.jpg",
-      // description: "Restaurant Randomizer",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/chicago_streets.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/clouds.jpg",
+      image: "/images/photography/old_couple.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -209,27 +210,17 @@ module.exports = {
       // url: "https://github.com/ruthedition/"
     },
     {
+      image: "/images/photography/twin_dogs.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
       image: "/images/photography/ethiopia.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/house_tree.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/old_couple.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/old_house_sunset.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/park_clouds.jpg",
+      image: "/images/photography/dog_window.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -244,8 +235,103 @@ module.exports = {
       // url: "https://github.com/ruthedition/"
     },
     {
+      image: "/images/photography/flower.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/house_tree.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/mountains.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/water_sunset.jpg",
+      // description: "Restaurant Randomizer",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/office_rain.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/office_sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/old_house_sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/snow3.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/park_sunset2.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/pink_flowers.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/snow2.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/white_car.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/white_flowers.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/puppy.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
       image: "/images/photography/resort.jpg",
       // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/skyline.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/vegas_lights.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/long_road.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/car_sunset.jpg",
+      // description: "Restaurant Randomizer",
       // url: "https://github.com/ruthedition/"
     },
     {
@@ -258,28 +344,19 @@ module.exports = {
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
-    {
-      image: "/images/photography/skyline.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
+
     {
       image: "/images/photography/snow1.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/snow2.jpg",
+      image: "/images/photography/chicago_streets.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/snow3.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/sunset.jpg",
+      image: "/images/photography/clouds.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -293,33 +370,6 @@ module.exports = {
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
-    {
-      image: "/images/photography/water_sunset.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/IMG_6849_Original.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/IMG_6508_Original.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/IMG_6539_Original.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/IMG_6898_Original.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-
-
     /* more portifolio items here */
   ],
   art: [
@@ -353,7 +403,7 @@ module.exports = {
   },
   siteUrl: 'https://ruthedition.github.io',
   pathPrefix: '/', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/background.JPG',
+  siteCover: '/images/background/background.JPG',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',

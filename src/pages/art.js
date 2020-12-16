@@ -42,7 +42,7 @@ const Art = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/leaf_painting.JPG')}
+        heroImg={withPrefix('/images/background/leaf_painting.JPG')}
         title={title}
         titleColor={'#1F362B'}
       />

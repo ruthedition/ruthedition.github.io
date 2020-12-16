@@ -38,7 +38,7 @@ const Blog = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/houses.jpg')}
+        heroImg={withPrefix('/images/background/houses.jpg')}
         title={title}
       />
 
