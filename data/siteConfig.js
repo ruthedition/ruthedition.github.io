@@ -107,32 +107,32 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/one_place.png",
+      image: "/images/portfolio/one_place.png",
       description: "Personal Site",
       url: "https://github.com/ruthedition/sinatra_project"
     },
     {
-      image: "/images/one_place.png",
+      image: "/images/portfolio/one_place.png",
       description: "Consious Soul",
       url: "https://github.com/ruthedition/sinatra_project"
     },
     {
-      image: "/images/one_place.png",
+      image: "/images/portfolio/one_place.png",
       description: "One Place Prototype",
       url: "https://github.com/ruthedition/one-place"
     },
     {
-      image: "/images/budget_app.png",
+      image: "/images/portfolio/budget_app.png",
       description: "Budget Buddy",
       url: "https://github.com/ruthedition/budget-buddy"
     },
     {
-      image: "/images/restaurant_app.png",
+      image: "/images/portfolio/restaurant_app.png",
       description: "Restaurant Randomizer",
       url: "https://github.com/ruthedition/restaurant_randomizer"
     },
     {
-      image: "/images/wine_project.png",
+      image: "/images/portfolio/wine_project.png",
       description: "Wine Collection",
       url: "https://github.com/ruthedition/sinatra_project"
     },
@@ -190,12 +190,12 @@ module.exports = {
       // description: "One Place",
     },
     {
-      image: "/images/backgound/background.JPG",
+      image: "/images/background/background.JPG",
       // description: "Budget Buddy",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/background/lights.jpg",
+      image: "/images/photography/lights.jpg",
       // description: "Restaurant Randomizer",
       // url: "https://github.com/ruthedition/"
     },
@@ -373,26 +373,26 @@ module.exports = {
     /* more portifolio items here */
   ],
   art: [
-    {
-      image: "/images/gatsby-starter-cv.png",
-      description: "One Place",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Budget Buddy",
-      url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Restaurant Randomizer",
-      url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Wine Collection",
-      url: "https://github.com/ruthedition/"
-    },
+    // {
+    //   image: "/images/gatsby-starter-cv.png",
+    //   description: "One Place",
+    //   // url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    // },
+    // {
+    //   image: "/images/awesome-grid.png",
+    //   description: "Budget Buddy",
+    //   // url: "https://github.com/ruthedition/"
+    // },
+    // {
+    //   image: "/images/awesome-grid.png",
+    //   description: "Restaurant Randomizer",
+    //   // url: "https://github.com/ruthedition/"
+    // },
+    // {
+    //   image: "/images/awesome-grid.png",
+    //   description: "Wine Collection",
+    //   // url: "https://github.com/ruthedition/"
+    // },
     /* more portifolio items here */
   ],
   social: {
