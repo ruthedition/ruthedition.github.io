@@ -14,31 +14,31 @@ module.exports = {
   skills: [
     {
       name: 'Javascript',
-      level: 70
+      level: 40
     },
     {
       name: 'React',
-      level: 60
+      level: 20
     },
     {
       name: 'Redux',
-      level: 50
+      level: 20
     },
     {
       name: 'Ruby',
-      level: 75
+      level: 50
     },
     {
       name: 'Rails',
-      level: 60
+      level: 43
     },
     {
       name: 'HTML',
-      level: 70
+      level: 50
     },
     {
       name: 'CSS',
-      level: 70
+      level: 45
     },
     /* more skills here */
   ],
