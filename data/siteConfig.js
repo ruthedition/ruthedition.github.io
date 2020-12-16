@@ -230,7 +230,7 @@ module.exports = {
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/pink_flowers.jpg",
+      image: "/images/photography/park_clouds.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -290,7 +290,7 @@ module.exports = {
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/snow2.jpg",
+      image: "/images/photography/white_flowers.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -300,7 +300,7 @@ module.exports = {
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/white_flowers.jpg",
+      image: "/images/photography/snow2.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -319,16 +319,7 @@ module.exports = {
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
-    {
-      image: "/images/photography/vegas_lights.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/long_road.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
+    
     {
       image: "/images/photography/car_sunset.jpg",
       // description: "Restaurant Randomizer",
@@ -336,17 +327,6 @@ module.exports = {
     },
     {
       image: "/images/photography/road_curve.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-    {
-      image: "/images/photography/roads_clouds.jpg",
-      // description: "Wine Collection",
-      // url: "https://github.com/ruthedition/"
-    },
-
-    {
-      image: "/images/photography/snow1.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
@@ -361,12 +341,29 @@ module.exports = {
       // url: "https://github.com/ruthedition/"
     },
     {
+      image: "/images/photography/roads_clouds.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+
+    {
+      image: "/images/photography/snow1.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    
+    {
       image: "/images/photography/traffic_sunset.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
     {
-      image: "/images/photography/water_fountain.jpg",
+      image: "/images/photography/vegas_lights.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/long_road.jpg",
       // description: "Wine Collection",
       // url: "https://github.com/ruthedition/"
     },
