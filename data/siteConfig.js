@@ -370,26 +370,67 @@ module.exports = {
     /* more portifolio items here */
   ],
   art: [
-    // {
-    //   image: "/images/gatsby-starter-cv.png",
-    //   description: "One Place",
-    //   // url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    // },
-    // {
-    //   image: "/images/awesome-grid.png",
-    //   description: "Budget Buddy",
-    //   // url: "https://github.com/ruthedition/"
-    // },
-    // {
-    //   image: "/images/awesome-grid.png",
-    //   description: "Restaurant Randomizer",
-    //   // url: "https://github.com/ruthedition/"
-    // },
-    // {
-    //   image: "/images/awesome-grid.png",
-    //   description: "Wine Collection",
-    //   // url: "https://github.com/ruthedition/"
-    // },
+    {
+      image: "/images/art/horse.jpg",
+      description: "Farm Series - Acrylic",
+      // url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+    },
+    {
+      image: "/images/art/pig.jpg",
+      description: "Farm Series - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/deer.jpg",
+      description: "Farm Series - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/cow.jpg",
+      description: "Farm Series - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/rooster.jpg",
+      description: "Farm Series - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/space.jpg",
+      description: "Space - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/small_canvas.jpg",
+      description: "Space / Light - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/multi_media.jpg",
+      description: "Bubbles - Multi Media",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/moon.jpg",
+      description: "Moon - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/moon_flower.jpg",
+      description: "Moon Flower - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/flower_painting.jpg",
+      description: "Lavander - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/art/fall.jpg",
+      description: "Fall - Acrylic",
+      // url: "https://github.com/ruthedition/"
+    },
+
     /* more portifolio items here */
   ],
   social: {
