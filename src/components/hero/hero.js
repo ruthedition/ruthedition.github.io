@@ -21,14 +21,14 @@ const HeroTitle = styled.h1`
   font-weight: 700;
   font-size: 3rem;
   margin: 10px 60px;
-  color: #fff;
+  color: ${props => props.titleColor || '#fff'};
   text-shadow: 1px 1px 4px rgba(34, 34, 34, 0.6);
 `
 
-const Hero = ({ className, title }) => (
+const Hero = ({ className, title, titleColor }) => (
   <HeroContainer className={className}>
     <TitleContainer>
-      <HeroTitle>{title}</HeroTitle>
+      <HeroTitle titleColor={titleColor}>{title}</HeroTitle>
     </TitleContainer>
   </HeroContainer>
 )

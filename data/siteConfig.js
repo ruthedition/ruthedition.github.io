@@ -1,38 +1,43 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteTitle: 'Hi! I\'m Ruth!',
+  siteDescription: `Personal Site`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Ruth Kebede',
+  // twitterUsername: '',
+  githubUsername: 'ruthedition',
+  authorAvatar: '/images/avatar.jpg',
+  authorDescription: `After spending a few years trying to find something that can keep me interested and become a lasting career,
+  I found my self completing a Software Engineering bootcamp, while being a stay-at-home mom to a one year old...in the middle of
+  a pandemic... All I can say is, it was interesting. In the last 10 months, my time at Flatiron School 
+  has given me the ability to be adaptable to unexpected changes and find flexibility not only in my life, but in the 
+  way I interact with code.`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
-    },
-    {
       name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
+      level: 70
     },
     {
       name: 'React',
       level: 60
     },
     {
-      name: 'Git',
+      name: 'Redux',
+      level: 50
+    },
+    {
+      name: 'Ruby',
+      level: 75
+    },
+    {
+      name: 'Rails',
+      level: 60
+    },
+    {
+      name: 'HTML',
+      level: 70
+    },
+    {
+      name: 'CSS',
       level: 70
     },
     /* more skills here */
@@ -40,68 +45,315 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Beard and Bow Software",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'june',
+        year: '2017'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      duration: '2 yr & 8 mos',
+      occupation: "Founder",
+      description: "I founded this company to create a space for new software engineers and bootcamp grads to gain experience."
   
     },  {
-      company: "Lendico",
+      company: "Verticomm Technologies",
       begin: {
         month: 'apr',
-        year: '2018'
+        year: '2017'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '5 mos',
+      occupation: "Account Manager",
+      description: "I was a communication liason between clients and engineers."
   
     }, {
-      company: "Anapro",
+      company: "Joining Vision and Action",
       begin: {
-        month: 'dec',
+        month: 'may',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: '1 yr & 1 mos',
+      occupation: "Evaluation Associate",
+      description: "Part of the Research and Evaluation Team, conducting trainings, focus groups, and evaluations for non-profits."
     }, {
-      company: "Anapro",
+      company: "University of Denver - University Technology Services(UTS)",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'sep',
+        year: '2013'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '1 yrs & 9 mos',
+      occupation: "Sr. Phone Support Consultant",
+      description: "."
   
-    },
+    },{
+      company: "University of Denver - UTS",
+      begin: {
+        month: 'july',
+        year: '2014'
+      },
+      duration: '2 yrs & 10 mos',
+      occupation: "Help Desk Consultant",
+      description: "."
+  
+    },{
+      company: "University of Denver - The Girls in Transition Project",
+      begin: {
+        month: 'sep',
+        year: '2013'
+      },
+      duration: '1 yrs & 9 mos',
+      occupation: "Research Assistant",
+      description: "Completed Data entry, analysis, and interviews for girls who have been referred to the juvenille justice system."
+  
+    }
   ],
   portifolio: [
     {
+      image: "/images/one_place.png",
+      description: "One Place Prototype",
+      url: "https://github.com/ruthedition/one-place"
+    },
+    {
+      image: "/images/budget_app.png",
+      description: "Budget Buddy",
+      url: "https://github.com/ruthedition/budget-buddy"
+    },
+    {
+      image: "/images/restaurant_app.png",
+      description: "Restaurant Randomizer",
+      url: "https://github.com/ruthedition/restaurant_randomizer"
+    },
+    {
+      image: "/images/wine_project.png",
+      description: "Wine Collection",
+      url: "https://github.com/ruthedition/sinatra_project"
+    },
+    /* more portifolio items here */
+  ],
+  blog: [
+    {
+      title: "React Routes for Authenticated Users",
+      date: "December 10, 2020",
+      description: "One of the last things I worked on for my project was adding in restricted routes. I only wanted a user to be able to to go the the pages they...",
+      url: "https://ruthedition.medium.com/just-a-click-no-javascript-c083f462a53"
+    },
+    {
+      title: "Finding Something Familiar in JavaScript",
+      date: "October 02, 2020",
+      description: "I'm not going to lie, JavaScript was brutal. With every line of code I found my self wanting to go back to the comforts of Ruby. All the structure and simplicity that allowed you to...",
+      url: "https://ruthedition.medium.com/just-a-click-no-javascript-c083f462a53"
+    },
+    {
+      title: "Just a Click - No JavaScript",
+      date: "August 18, 2020",
+      description: "When coming up with the concept for my Rails project my whole project relied on the ability of a user to click a button and get a response instantly. Obviously...",
+      url: "https://github.com/ruthedition/"
+    },
+    {
+      title: "Access Granted",
+      date: "June 25, 2020",
+      description: "The Sinatra Mod seemed to go by in a blink of an eye. i wasn't sure if any of the information I was learning was sticking or if I was just...",
+      url: "https://ruthedition.medium.com/access-granted-99dac0e1bb4b"
+    },
+    {
+      title: "CLI Project",
+      date: "April 6, 2020",
+      description: "As I write this blog post, i have confidently pushed up the last bit of edits for my very first CLI Project. It's crazy to think that just...",
+      url: "https://ruthedition.medium.com/cli-project-f8d3a684fce0"
+    },
+    {
+      title: "Return to Me",
+      date: "March 15, 2020",
+      description: "You learn about 'puts' and you learn about 'prints', and you kind of learn about 'returns'...It's hard to say if you actually learn about...",
+      url: "https://ruthedition.medium.com/access-granted-99dac0e1bb4b"
+    },
+    {
+      title: "What Now?",
+      date: "February 25, 2020",
+      description: "Stressful, isolation, poor hygiene, questionable living circumstances and dietary habits, cold, basement tan. These are the thoughts...",
+      url: "https://ruthedition.medium.com/access-granted-99dac0e1bb4b"
+    },
+    /* more portifolio items here */
+  ],
+  photography: [
+    {
+      image: "/images/photography/forest_sun.jpg",
+      // description: "One Place",
+    },
+    {
+      image: "/images/photography/building_snow.jpg",
+      // description: "Budget Buddy",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/car_sunset.jpg",
+      // description: "Restaurant Randomizer",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/white_car.jpg",
+      // description: "Restaurant Randomizer",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/chicago_streets.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/clouds.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/daisys.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/ethiopia.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/house_tree.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/old_couple.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/old_house_sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/park_clouds.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/park_sunset2.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/pink_flowers.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/resort.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/road_curve.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/roads_clouds.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/skyline.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/snow1.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/snow2.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/snow3.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/traffic_sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/water_fountain.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/water_sunset.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/IMG_6849_Original.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/IMG_6508_Original.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/IMG_6539_Original.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/photography/IMG_6898_Original.jpg",
+      // description: "Wine Collection",
+      // url: "https://github.com/ruthedition/"
+    },
+
+
+    /* more portifolio items here */
+  ],
+  art: [
+    {
       image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
+      description: "One Place",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
       image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      description: "Budget Buddy",
+      url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/awesome-grid.png",
+      description: "Restaurant Randomizer",
+      url: "https://github.com/ruthedition/"
+    },
+    {
+      image: "/images/awesome-grid.png",
+      description: "Wine Collection",
+      url: "https://github.com/ruthedition/"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    // twitter: "https://twitter.com/_franciscodf",
+    linkedin: "https://www.linkedin.com/in/ruth-kebede",
+    github: "https://github.com/ruthedition",
+    email: "rutht.kebede@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteUrl: 'https://ruthedition.github.io',
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
+  siteCover: '/images/background.JPG',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
@@ -117,6 +369,18 @@ module.exports = {
     {
       label: 'Portifolio',
       url: '/portifolio',
+    },
+    {
+      label: 'Blogs',
+      url: '/blog',
+    },
+    {
+      label: 'Photography',
+      url: '/photography',
+    },
+    {
+      label: 'Art',
+      url: '/art',
     }
   ]
 }
