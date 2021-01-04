@@ -107,13 +107,8 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/portfolio/one_place.png",
+      image: "/images/portfolio/personal_site.png",
       description: "Personal Site",
-      url: "https://github.com/ruthedition/sinatra_project"
-    },
-    {
-      image: "/images/portfolio/one_place.png",
-      description: "Consious Soul",
       url: "https://github.com/ruthedition/sinatra_project"
     },
     {
