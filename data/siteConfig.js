@@ -6,11 +6,11 @@ module.exports = {
   // twitterUsername: '',
   githubUsername: 'ruthedition',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `After spending a few years trying to find something that can keep me interested and become a lasting career,
-  I found my self completing a Software Engineering bootcamp, while being a stay-at-home mom to a one year old...in the middle of
-  a pandemic... All I can say is, it was interesting. In the last 10 months, my time at Flatiron School 
-  has given me the ability to be adaptable to unexpected changes and find flexibility not only in my life, but in the 
-  way I interact with code.`,
+  authorDescription: `I spent years trying to find something to combine my love for creativity and need for a career. 
+  In 10 months, I completed a Software Engineering bootcamp as a stay-at-home mom to a one-year old in the midst of 
+  a pandemic; I love a good challenge. I have always been driven and passionate in everything I pursue. 
+  So here I am pursuing a career as a Software Engineer, with experience in React-Redux, JavaScript based programming, 
+  and Ruby on Rails with a Masters in Social Work. Welcome to my personal site! `,
   skills: [
     {
       name: 'Javascript',
