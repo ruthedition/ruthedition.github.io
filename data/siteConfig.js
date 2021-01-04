@@ -14,7 +14,7 @@ module.exports = {
   skills: [
     {
       name: 'Javascript',
-      level: 40
+      level: 55
     },
     {
       name: 'React',
@@ -44,6 +44,17 @@ module.exports = {
   ],
   jobs: [
     /* more jobs here */
+    {
+      company: "Flatiron School",
+      begin: {
+        month: 'march',
+        year: '2020'
+      },
+      duration: '10 mos',
+      occupation: "Student",
+      description: "I designed and developed applications utilizing React, JavaScript, Ruby on Rails, HTML5, CSS, UI frameworks."
+
+    },
     {
       company: "Beard and Bow Software",
       begin: {
@@ -109,7 +120,12 @@ module.exports = {
     {
       image: "/images/portfolio/personal_site.png",
       description: "Personal Site",
-      url: "https://github.com/ruthedition/sinatra_project"
+      url: "https://github.com/ruthedition/Rkebede.github.io"
+    },
+    {
+      image: "/images/portfolio/memorial_site.png",
+      description: "Memorial Site",
+      url: "https://github.com/livecodelife/lenard"
     },
     {
       image: "/images/portfolio/one_place.png",
