@@ -6,23 +6,21 @@ module.exports = {
   // twitterUsername: '',
   githubUsername: 'ruthedition',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I spent years trying to find something to combine my love for creativity and need for a career. 
-  In 10 months, I completed a Software Engineering bootcamp as a stay-at-home mom to a one-year old in the midst of 
-  a pandemic; I love a good challenge. I have always been driven and passionate in everything I pursue. 
-  So here I am pursuing a career as a Software Engineer, with experience in React-Redux, JavaScript based programming, 
-  and Ruby on Rails with a Masters in Social Work. Welcome to my personal site! `,
+  authorDescription: `After years of trying to find something to combine my love for creativity and need for a career,
+  I felt at home when I began to code. In 2020 I completed a Software Engineering bootcamp, and since then I have been able 
+  to channel all my drive and passion into creating something while still having the chance to continue learning new things!`,
   skills: [
     {
       name: 'Javascript',
-      level: 55
+      level: 75
     },
     {
       name: 'React',
-      level: 20
+      level: 70
     },
     {
       name: 'Redux',
-      level: 20
+      level: 40
     },
     {
       name: 'Ruby',
@@ -34,20 +32,39 @@ module.exports = {
     },
     {
       name: 'HTML',
-      level: 50
+      level: 70
     },
     {
       name: 'CSS',
-      level: 45
+      level: 70
+    },
+    {
+      name: 'Java',
+      level: 50
+    },
+    {
+      name: 'SpringBoot',
+      level: 20
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
+      company: "Infosys",
+      begin: {
+        month: 'mar',
+        year: '2021'
+      },
+      duration: '10 mos',
+      occupation: "Associate Software Engineer for Verizon",
+      description: "Obtaining domain knowledge about networking and telecommunications."
+
+    },
+    {
       company: "Flatiron School",
       begin: {
-        month: 'march',
+        month: 'mar',
         year: '2020'
       },
       duration: '10 mos',
@@ -58,7 +75,7 @@ module.exports = {
     {
       company: "Beard and Bow Software",
       begin: {
-        month: 'june',
+        month: 'jun',
         year: '2017'
       },
       duration: '2 yr & 8 mos',
@@ -92,17 +109,17 @@ module.exports = {
       },
       duration: '1 yrs & 9 mos',
       occupation: "Sr. Phone Support Consultant",
-      description: "."
+      description: "Provided over the phone support for university members with technical troubleshooting and onboarding."
 
     }, {
       company: "University of Denver - UTS",
       begin: {
-        month: 'july',
+        month: 'jul',
         year: '2014'
       },
       duration: '2 yrs & 10 mos',
       occupation: "Help Desk Consultant",
-      description: "."
+      description: "Servered walk-in university members with technical troubleshooting and onboarding."
 
     }, {
       company: "University of Denver - The Girls in Transition Project",
@@ -117,6 +134,11 @@ module.exports = {
     }
   ],
   portifolio: [
+    {
+      image: "/images/portfolio/personal_site.png",
+      description: "Cribbage Assistant",
+      url: "https://github.com/ruthedition/Rkebede.github.io"
+    },
     {
       image: "/images/portfolio/personal_site.png",
       description: "Personal Site",
